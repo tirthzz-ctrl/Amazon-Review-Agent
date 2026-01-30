@@ -11,7 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 # --- CONFIGURATION ---
-SPREADSHEET_KEY = "1i-agaByyXpwkM0I7dUgGf9ZeUf0TVzsNykyadWyG8d0"
+SPREADSHEET_KEY = "*********************"
 INPUT_TAB_NAME = "Sheet1"
 CREDENTIALS_FILE = "credentials.json" 
 
@@ -247,4 +247,5 @@ def main():
         print("\n--- Agent Finished ---")
 
 if __name__ == "__main__":
+
     main()
