@@ -18,8 +18,8 @@ from bs4 import BeautifulSoup
 from googleapiclient.discovery import build
 
 # --- CONFIGURATION ---
-SPREADSHEET_KEY = "1i-agaByyXpwkM0I7dUgGf9ZeUf0TVzsNykyadWyG8d0"
-DOCUMENT_ID = "1idxt3Ii54ayeczxJZH6zV0POwNqF3Qdcd5uDiSSZTmk"
+SPREADSHEET_KEY = "********************************"
+DOCUMENT_ID = "**************************"
 INPUT_TAB_NAME = "Sheet1"
 CREDENTIALS_FILE = "credentials.json"
 HEADER_ROW_INDEX = 6 
@@ -197,4 +197,5 @@ def main():
         print("\n--- Session Finished ---")
 
 if __name__ == "__main__":
+
     main()
